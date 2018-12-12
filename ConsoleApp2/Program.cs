@@ -145,7 +145,11 @@ namespace ConsoleApp1
             AINum aINum = new AINum();
             var error = formElement.SetValidator(aINum);
             errorlist.Add(error);
-            elements.Add(formElement);
+            if (error == "")
+            {
+                elements.Add(formElement);
+            }
+
         }
 
         public bool IsValid()
