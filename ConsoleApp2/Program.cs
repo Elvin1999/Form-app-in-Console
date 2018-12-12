@@ -151,7 +151,6 @@ namespace ConsoleApp1
             }
 
         }
-
         public bool IsValid()
         {
             Bool @bool = new Bool();
